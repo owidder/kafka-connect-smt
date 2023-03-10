@@ -9,24 +9,7 @@
     <description>
         A Kafka Connect Transform for adding default headers and default keys.
     </description>
-    <url>https://github.com/cricket007/schema-registry-transfer-smt</url>
     <inceptionYear>2023</inceptionYear>
-    <licenses>
-        <license>
-            <name>Apache License 2.0</name>
-            <url>https://github.com/cricket007/schema-registry-transfer-smt/LICENSE</url>
-            <distribution>repo</distribution>
-        </license>
-    </licenses>
-    <scm>
-        <connection>scm:git:https://github.com/cricket007/schema-registry-transfer-smt.git</connection>
-        <developerConnection>scm:git:git@github.com:cricket007/schema-registry-transfer-smt.git</developerConnection>
-        <url>https://github.com/cricket007/schema-registry-transfer-smt</url>
-    </scm>
-    <issueManagement>
-        <system>github</system>
-        <url>https://github.com/cricket007/schema-registry-transfer-smt/issues</url>
-    </issueManagement>
     <distributionManagement>
         <repository>
             <id>bintray</id>
