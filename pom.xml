@@ -2,15 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>cricket.jmoore</groupId>
+    <groupId>com.hlag</groupId>
     <artifactId>insert-header-and-key</artifactId>
-    <version>0.2.1-SNAPSHOT</version>
-    <name>schema-registry-transfer-smt</name>
+    <version>1.0.0</version>
+    <name>insert-header-and-key</name>
     <description>
-        A Kafka Connect Transform for copying Confluent Schema Registry schemas between different registries.
+        A Kafka Connect Transform for adding default headers and default keys.
     </description>
     <url>https://github.com/cricket007/schema-registry-transfer-smt</url>
-    <inceptionYear>2019</inceptionYear>
+    <inceptionYear>2023</inceptionYear>
     <licenses>
         <license>
             <name>Apache License 2.0</name>
@@ -18,16 +18,6 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
-    <developers>
-        <developer>
-            <id>cricket007</id>
-            <name>Jordan Moore</name>
-            <url>https://github.com/cricket007</url>
-            <roles>
-                <role>Owner</role>
-            </roles>
-        </developer>
-    </developers>
     <scm>
         <connection>scm:git:https://github.com/cricket007/schema-registry-transfer-smt.git</connection>
         <developerConnection>scm:git:git@github.com:cricket007/schema-registry-transfer-smt.git</developerConnection>
